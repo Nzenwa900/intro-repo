@@ -52,9 +52,43 @@
     } else {
         console.log('Dozie is a young lad')
     }
-    
+
 // switch condition
 
 
+// functions
 
+
+function numAdd(num1, num2, num3) {
+    console.log(num1 + num2 + num3)
+    newThing = multiply(10,400);
+    console.log(newThing);
     
+}
+
+numAdd(1, 2, 3);
+
+
+function multiply(num1, num2) {
+    return num1 * num2;
+}
+
+console.log(multiply(2,5));    
+// console.log(multValue);
+
+
+// var anotherValue = 2 * 5;
+
+// var newThing = multValue * anotherValue;
+// console.log(newThing);
+
+function bigBoy(age,money) {
+    if (age > 10 || money > 1000000) {
+        return 'Big boy';
+    } else {
+        return 'Small boy'
+    }
+}
+
+console.log(bigBoy(9,20));
+console.log(bigBoy(8,200));
