@@ -11,8 +11,8 @@ const car = {
     startFunction:"key start",
     breakFunction:"automatic",
     carColor:"black",
-    Transmission : function(){
-        return "superfast";},
+    transmission : function(){
+        console.log("superfast");},
     dashboard: "luxurious",
 
 };
@@ -20,6 +20,13 @@ const car = {
 console.log(car.startFunction);
 console.log(car.carColor);
 console.log(car.carSpeed);
-console.log(car.Transmission);
+console.log(car.transmission());
+
+car.carName = "venza";
+console.log(car.carName);
+
+console.log[car["carName"]];
+
+// disk key word for the next class //
 
 
